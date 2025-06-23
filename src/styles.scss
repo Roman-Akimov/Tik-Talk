@@ -9,6 +9,7 @@ body{
   font-family: 'JetBrains Mono', sans-serif;
   background: var(--dark-color);
   color: var(--light-color);
+  background-image: url(/assets/imgs/img.jpg);
 }
 
 *,
@@ -31,6 +32,9 @@ body{
 }
 
 .btn{
+  width: 240px;
+  margin: 6px;
+  padding: 12px 20px;
   border: none;
   border-radius: 3px;
   background: var(--primary-color);
@@ -38,7 +42,20 @@ body{
   padding: 10px 20px;
   font-weight: 700;
   line-height: 25px;
+  cursor: pointer;
+}
 
+.btn:hover{
+  border: 2px solid var(--light-color);
+  background: #8e64d7;
+  color: #cbcbcb;
+  display: inline;
+}
+
+.h1{
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 800;
 }
 
 .h6{
@@ -53,6 +70,28 @@ body{
   line-height: 20px;
 }
 
+.tt-control-label{
+  font-weight: 700;
+  font-style: 12px;
+  line-height: 16px;
+
+}
+
+.tt-input{
+  width: 240px;
+  margin: 6px;
+  margin-top: 10px;
+  display: block;
+  border: 1px solid var(--light-color);
+  border-radius: 3px;
+  padding: 12px 20px;
+  background: var(--dark-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: 'JetBrains Mono', sans-serif;
+  color: white;
+}
 
 
 
