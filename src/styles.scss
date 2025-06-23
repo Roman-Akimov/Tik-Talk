@@ -11,6 +11,14 @@ body{
   color: var(--light-color);
 }
 
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .skill-tag{
   padding: 4px 8px;
   border-radius: 4px;
@@ -19,6 +27,7 @@ body{
   font-size: 12px;
   font-weight: 700;
   margin-right: 3px;
+  height: 24px;
 }
 
 .btn{

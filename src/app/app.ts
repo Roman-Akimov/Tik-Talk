@@ -12,14 +12,14 @@ import { ProfileService } from './data/services/profile'; // сервис
   styleUrls: ['./app.scss']
 })
 export class App {
-  profileService = inject(ProfileService)
-  profiles: Profile[] = []
+  profileService = inject(ProfileService);
+  profiles: Profile[] = [];
 
   constructor() {
     this.profileService.getTestAccounts()
       .subscribe(val => {
         this.profiles = val;
-      })
+      });
   }
   protected title = 'tik-talk';
 }
